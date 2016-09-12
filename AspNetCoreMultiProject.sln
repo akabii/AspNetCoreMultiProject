@@ -7,6 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4C725E5-4DB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36DA9D9F-24B5-4D72-9C12-C51B6A7A1151}"
 	ProjectSection(SolutionItems) = preProject
+		src\docker-compose.dev.debug.yml = src\docker-compose.dev.debug.yml
+		src\docker-compose.dev.release.yml = src\docker-compose.dev.release.yml
+		src\docker-compose.yml = src\docker-compose.yml
 		global.json = global.json
 	EndProjectSection
 EndProject

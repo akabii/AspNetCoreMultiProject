@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  api:
+    image: dockertools.azurecr.io/aspnetcoremultiproject/api${TAG}
+    build:
+      context: Api/bin/Release/PublishOutput
+      dockerfile: Dockerfile
+    ports:
+      - "80"
+  web:
+    image: dockertools.azurecr.io/aspnetcoremultiproject/web${TAG}
+    build:
+      context: Web/bin/Release/PublishOutput
+      dockerfile: Dockerfile
+    ports:
+      - "80"
